@@ -38,7 +38,6 @@ class App {
     this.PROPS = {
       axios: axios.create({
         baseURL: 'https://api.github.com',
-        headers: { Authorization: 'token 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' },
       }),
     };
 
